@@ -1,0 +1,513 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #343a40;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body,
+html {
+  height: 100%;
+}
+.hero {
+  height: 200px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(250, 65, 65)
+  );
+
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  /* background-image: url(""); */
+
+  /* Set a specific height */
+  height: 80%;
+  margin-bottom: 90px;
+  /* Position and center the image to scale nicely on all screens */
+  background-position-y: 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header-img {
+  width: 300px;
+  position: absolute;
+  right: 20%;
+  top: 15%;
+  border-radius: 4px;
+}
+.header-imgtwo {
+  max-width: 300px;
+  position: absolute;
+  right: 2%;
+  top: 42%;
+  border-radius: 4px;
+}
+
+/* Place text in the middle of the image */
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  color: aliceblue;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 2rem;
+  padding: 10px;
+}
+h1,
+h2 {
+  font-weight: lighter;
+}
+.post {
+  display: flex;
+}
+.new-post {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.left-col {
+  gap: 20px;
+}
+.right-col {
+  gap: 20px;
+  margin-top: 45px;
+}
+.hero-text button,
+.post-btn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffe8cc;
+  background-color: #d9480f;
+  text-align: center;
+  width: 150px;
+  margin-bottom: 10px;
+
+  font-weight: lighter;
+  text-transform: uppercase;
+
+  margin-top: 10px;
+}
+
+.post-btn:hover {
+  cursor: pointer;
+  background-color: #e8590c;
+  color: #ffe8cc;
+}
+.hero-text button,
+.learn-more:hover {
+  cursor: pointer;
+  background-color: #e8590c;
+  color: #ffe8cc;
+  font-weight: bold;
+}
+/* the nav bar */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  height: 50px;
+  background-color: rgba(250, 235, 215, 0.197);
+
+  color: #ffe8cc;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+ul li a {
+  margin: 3px;
+  height: 40px;
+}
+li a:hover {
+  background-color: #ff8787;
+  padding: 14px 16px;
+}
+
+.cake-pic {
+  max-width: 400px;
+}
+
+.col-1 {
+  width: 60%;
+}
+.col-2 {
+  width: 25%;
+}
+.col-3 {
+  width: 100%;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+.right-col-header span {
+  color: white;
+}
+/* the second comp article */
+.container-middle {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.post {
+  display: flex;
+  gap: 50px;
+  justify-content: space-evenly;
+  margin-bottom: 90px;
+  width: 100%;
+}
+.left-col {
+  display: flex;
+  flex-direction: column;
+}
+.right-col {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 80%;
+}
+about-me-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+article h2 {
+  margin-bottom: 20px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 1rem;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30%;
+  margin-left: 20px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 2px solid #fa5252;
+  padding-top: 15px;
+}
+/* Cosmetic section */
+.cosmetic-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 0, 0, 0),
+    rgb(250, 65, 65)
+  );
+
+  border-radius: 7px;
+  margin-bottom: 90px;
+}
+.cosmetic-section img {
+  max-width: 200px;
+}
+.serum-pic {
+  display: absolute;
+  bottom: 80%;
+}
+.col-4 {
+  display: flex;
+}
+.cosmetic-pic {
+  border-radius: 50%;
+}
+.cosmetic-button {
+  width: 170px;
+  height: 40px;
+  background-color: #4f2c1e;
+  color: antiquewhite;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 18px;
+}
+.cosmetic-button:hover {
+  background-color: #7f4731;
+  cursor: pointer;
+}
+.text-cosmetic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* follow */
+.follow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 300px;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 5px solid green;
+  margin-bottom: 20px;
+  padding: 16px 30px;
+  border-radius: 7px;
+}
+#emailtwo {
+  width: 400px;
+}
+.inner-follow {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/* content { */
+.box {
+  display: flex;
+  flex-direction: column;
+}
+.descr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 3px;
+  margin-bottom: 90px;
+  padding: 30px;
+  gap: 30px;
+}
+.descr img {
+  width: 200px;
+  height: 160px;
+  margin-bottom: 20px;
+}
+.icon {
+  width: 30px;
+  color: rgb(76, 74, 74);
+}
+
+/* The follow section */
+
+input {
+  width: 200px;
+  height: 40px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.grey {
+  width: 150px;
+  height: 40px;
+  background-color: rgb(238, 233, 228);
+  color: #343a40;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.grey:hover {
+  cursor: pointer;
+}
+.email-icon {
+  width: 24px;
+}
+
+.about-pic {
+  width: 150px;
+  height: auto;
+
+  padding: 5px;
+}
+.cake-pic {
+  max-width: 400px;
+  height: auto;
+}
+.text-sec button {
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: #fa5252;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.text-sec button:hover {
+  background-color: #ff8787;
+}
+/* footer */
+.footer {
+  display: flex;
+  background-color: #212529;
+  color: white;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+@media screen and (max-width: 400px) {
+  .header-div {
+    flex-direction: column;
+  }
+  .hero {
+    height: 60%;
+  }
+  .left-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: Center;
+  }
+  .cake-pic {
+    width: 250px;
+    margin-left: 20px;
+  }
+  .header-img,
+  .header-imgtwo {
+    width: 150px;
+  }
+  .hero-text {
+    top: 40%;
+    left: 35%;
+    font-size: 1rem;
+    text-align: left;
+    margin-left: 10px;
+    background-color: rgba(118, 109, 97, 0.197);
+  }
+  .about-pic {
+    margin-left: 20px;
+  }
+  .col-1 {
+    width: 30%;
+  }
+}
+.navlinks {
+  font-size: 0.9rem;
+}
+h1 {
+  font-size: 1.5rem;
+}
+.post {
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1rem;
+}
+.col-1 {
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+.col-2 {
+  width: 90%;
+}
+.right-col {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.cosmetic-section {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text-cosmetic {
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  gap: 10px;
+}
+.box {
+  flex-direction: column;
+}
+.descr {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+col-3 {
+  width: 100%;
+}
+.follow {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    height: 35%;
+  }
+  .header-img,
+  .header-imgtwo {
+    max-width: 180px;
+  }
+  .post {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .hero-text {
+    top: 55%;
+    left: 25%;
+    font-size: 1rem;
+    text-align: left;
+    background-color: rgba(118, 109, 97, 0.197);
+  }
+  .col-1 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .right-col {
+    margin-left: 20px;
+  }
+  .left-col {
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+  .new-post {
+    text-align: center;
+  }
+  .about-me-col {
+    justify-content: flex-start;
+
+    margin-right: 20px;
+  }
+  .col-1 {
+    width: 100%;
+    align-items: flex-start;
+  }
+  .text-cosmetic {
+    gap: 20px;
+  }
+}

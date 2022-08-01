@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Grid template layout</title>
+  </head>
+  <body>
+
+     
+    
+  
+  <!--HERO img same for Mobile and Desktopview-->
+  <div class="hero">
+    <ul class="nav-bar">
+      <li>
+        <a
+          href="index.html"
+          class="navlinks"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a
+          href="blog.html"
+          class="navlinks"
+          >Blog</a
+        >
+      </li>
+      <li>
+        <a
+          href="./shop/01-shop.html"
+          class="navlinks"
+          >Cosmetics</a
+        >
+      </li>
+      <li><a href="#About-me-box" class="navlinks">About me</a></li>
+      <li><a href="#form-box" class="navlinks">Contact</a></li>
+    </ul>
+    
+    <img class="header-img" src='https://images.pexels.com/photos/3070968/pexels-photo-3070968.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'/>
+    <img class="header-imgtwo" src='./images/nutrition-me.png'/>
+    <div class="hero-text">
+      <h1>Wellcome to the </h1>
+      <p>The best place for healthy live</p>
+      <form name='myform'>
+        <label for='email'>Email</label><br>
+      <input type="text" name="email" id='emailTwo' placeholder="john@email.com" /><br>
+      <button class='btn' >Follow</button></form>
+      <p id='thank-you'></p>
+    </div>
+   
+  </div>
+
+
+ 
+
+
+
+
+  <main>
+  <div class='container-middle'>
+    <h2 class='new-post'>Latest posts</h2>
+      <div>
+        <div class='post'>
+      
+          <div>
+          <div class="left-col col-1">
+        <h2>Chocolate cake whit beetroots</h2>
+        
+          <img
+            class="cake-pic"
+            src="https://prioritycosmetics.files.wordpress.com/2022/05/img_20220501_201300349_hdr3-1.jpg?w=866&h=&zoom=2"
+            alt="chocolate cake"
+          /></div>
+          <div class="right-col col-2">
+            <p>
+              Insanely delicious chocolate cake is the only way I can describe
+              this cake made of baked beetroots and chocolate. You know that
+              beets are very useful and fall into the category of super foods.
+              It can be prepared in various dishes, soups, roasted salads, but
+              in my opinion, desserts work best.
+            </p>
+            <a href='blog.html'>
+            <button class='post-btn'>Read more</button></a>
+          </div>
+          <div class="left-col col-1">
+            <h2>Chocolate cake whit beetroots</h2>
+            
+              <img
+                class="cake-pic"
+                src=" https://prioritycosmetics.files.wordpress.com/2022/01/image_editor_output_image246110481-1641852680799.jpg"
+                alt="chocolate cake"
+              /></div>
+              <div class="right-col col-2">
+                <p>
+                  Insanely delicious chocolate cake is the only way I can describe
+                  this cake made of baked beetroots and chocolate. You know that
+                  beets are very useful and fall into the category of super foods.
+                  It can be prepared in various dishes, soups, roasted salads, but
+                  in my opinion, desserts work best.
+                </p>
+                <a href='blog.html'>
+                <button class='post-btn'>Read more</button></a>
+              </div>
+              <!-- Put here the next post -->
+            </div> 
+        
+          <div class='about-me-col col-1'>
+          <h2>About me</h2>
+          <img class="about-pic" src="./images/new-pic.jpg" alt="Petya" />
+          <p>
+            My name is Petya, I like to experiment in the kitchen with recipes and
+            cosmetics. I completed a course in Healthy Eating and Lifestyle which
+            completely changed my perception of food. It all started at an early
+            age. As a child I was attracted to nature and plants and this was one
+            of the reasons I graduated as an agronomist at the University of
+            Plovdiv in Bulgaria. I never managed to put my diploma into practice,
+            but I also felt that there was some other vocation that I did not
+            discover at the time.
+          </p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/helthycoach" class="fa fa-facebook"></a>
+            <a href="https://www.youtube.com/watch?v=Q5HGIY66Rhs&t=355s" class="fa fa-youtube"></a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+   
+    <div class='cosmetic-section'>
+      <div class='col-4'>
+       
+          
+        <img src='./images/face-serum.png' alt='serum'/></div>
+
+       
+     
+    <div class='text-cosmetic'>
+    <h2>Natural and organic sustainable cosmetics</h2>
+    <p>Our favorite collection of skin care is made from plant extract and oil that will transform your skin!</p>
+    <a href='./shop/01-shop.html'> 
+    <button class='cosmetic-button'>Shop</button> </div>  </a>
+      <img  class="cosmetic-pic" src="https://images.pexels.com/photos/5566050/pexels-photo-5566050.jpeg?auto=compress&cs=tinysrgb&w=600" alt='pic'/>
+    </div>
+    </div>
+    </div>
+  
+
+      <div class='follow'>
+        <div>
+          <div class='inner-follow'>
+        <h2>Follow my blog!</h2>
+        <p>
+          Leave your email and get content delivered directly into your inbox.
+        </p></div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="email-icon"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
+          />
+        </svg>
+        <form name='myformTwo'>
+          <label for='emailTwo'>email</label>
+        <input type="text" name="email" id='emailTwo' placeholder="john@email.com" />
+       
+        <button class="grey">Follow</button>
+      </form>
+        <p id='second-tnk'>Subscribe</p>
+      </div>
+         
+        
+        
+       
+      
+  
+    
+     
+      
+      
+     </div>
+         
+   
+    
+  </div>
+</main>
+
+  <footer>
+<div class="footer">
+      
+        <h3>Contact me</h3>
+        <div class='tel'>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+        </svg></div>
+       
+        <p>Tel: 00447448172379</p>
+        <div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+        </svg>
+        <p>email: petya83dimitrova@gmail.com</p></div>
+        <p>Copywrite &copy; 2022 Petya Dimitrova</p>
+        </div>
+  </footer>
+  <script src='app-home.js'></script>
+  </body>
+</html>

@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1rem;
+  color: #5c3e068f;
+  font-family: sans-serif;
+  font-weight: lighter;
+  height: 100%;
+}
+/* styling the top component layout */
+h1 {
+  font-weight: lighter;
+  font-size: 3rem;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 90px;
+}
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.buy {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 1.2rem;
+}
+.arrows {
+  display: flex;
+}
+/* the header */
+header {
+  margin-bottom: 90px;
+}
+.nav {
+  display: flex;
+  background-color: #6e3e109e;
+  color: #fff4e6;
+  height: 50px;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.header-icon {
+  width: 24px;
+}
+h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+.arrow-icon {
+  width: 24px;
+  cursor: pointer;
+}
+.serum-img {
+  max-width: 350px;
+}
+.img h2 {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+.price {
+  font-size: 1.5rem;
+}
+.buy-btn {
+  text-align: center;
+  padding-top: 9px;
+  background-color: #5c3e068f;
+  color: #fff4e6;
+  cursor: pointer;
+  width: 170px;
+  height: 40px;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+.buy-btn:hover {
+  background-color: rgb(172, 143, 106);
+}
+article {
+  width: 1300px;
+  margin: auto;
+  color: rgb(74, 73, 73);
+  background-color: rgba(240, 238, 235, 0.61);
+  padding: 40px;
+  margin-bottom: 90px;
+}
+.descr {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.descr h2 {
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+.descr ul {
+  margin-bottom: 20px;
+}
+.descr-icon {
+  width: 24px;
+  margin-bottom: 20px;
+}
+.learn-more {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(165, 95, 42);
+  color: antiquewhite;
+  text-transform: uppercase;
+  border: none;
+}
+.learn-more:hover {
+  cursor: pointer;
+  background-color: rgba(167, 102, 52, 0.86);
+}
+/* related products */
+.best-selers {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-weight: lighter;
+}
+.product-box {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  background-color: rgba(195, 187, 177, 0.434);
+}
+.product-box h2 {
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.button-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.product-img {
+  max-width: 300px;
+}
+.left-btn {
+  width: 140px;
+  height: 40px;
+  border: 1px solid rgb(64, 33, 5);
+  text-transform: uppercase;
+}
+.right-btn {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(165, 95, 42);
+  color: antiquewhite;
+  text-transform: uppercase;
+  border: none;
+}
+.left-btn,
+.right-btn:hover {
+  cursor: pointer;
+}
+.right-btn:hover {
+  background-color: rgba(167, 102, 52, 0.86);
+}
+/* video */
+.video {
+  width: 800px;
+  margin: 0 auto;
+}
+/* related products */
+
+/* footer */
+.footer {
+  display: flex;
+  background-color: #212529;
+  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+.tel {
+  display: flex;
+}
+.email {
+  display: flex;
+}
+.left-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.right-social {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.copy {
+  font-size: 0.9rem;
+}
+/* the icons */
+.fa {
+  padding: 10px;
+  padding: 20px;
+  font-size: 40px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background-color: #3b5998;
+  color: white;
+}
+
+.fa-youtube {
+  background-color: #bb0000;
+  color: white;
+}
+.icon {
+  width: 24px;
+}

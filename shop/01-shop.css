@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #343a40;
+  font-size: 1.125rem;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+/* the nav bar */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  list-style: none;
+
+  height: 50px;
+}
+a {
+  text-decoration: none;
+  color: #343a40;
+}
+.nav-bar li a:hover {
+  text-decoration: none;
+  color: #343a40;
+}
+.nav-bar li {
+  cursor: pointer;
+}
+.header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #e0dbd375;
+  width: 100%;
+  font-weight: lighter;
+}
+.header-box h1 {
+  font-size: 3rem;
+  font-weight: lighter;
+}
+.left-box img {
+  max-width: 600px;
+}
+.right-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* layout the middle section */
+.best-selers {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-weight: lighter;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 90px;
+}
+.product-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  font-weight: lighter;
+}
+.product-box h2 {
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.button-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.product-img {
+  max-width: 300px;
+}
+.left-btn {
+  width: 140px;
+  height: 40px;
+  border: 1px solid rgb(64, 33, 5);
+  text-transform: uppercase;
+}
+.right-btn {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(165, 95, 42);
+  color: antiquewhite;
+  text-transform: uppercase;
+  border: none;
+}
+.left-btn,
+.right-btn:hover {
+  cursor: pointer;
+}
+.right-btn:hover {
+  background-color: rgba(167, 102, 52, 0.86);
+}
+/* carosel */
+.colour {
+  background-color: rgba(128, 128, 128, 0.527);
+}
+.carosel {
+  display: flex;
+  width: 900px;
+  margin: 0px auto;
+  border-radius: 8px;
+  padding-left: 86px;
+  padding: 32px;
+  background-color: #946025;
+  margin-bottom: 90px;
+  align-items: center;
+  gap: 86px;
+  color: #e2f6ef;
+  position: relative;
+  line-height: 1.5;
+}
+.carosel img {
+  width: 200px;
+  left: 10%;
+  border-radius: 8px;
+  transform: scale(1.5);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+.carosel-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+.btn {
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  height: 40px;
+  max-width: 40px;
+  border-radius: 70%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-60%, -50%);
+  box-shadow: 0 12px 24px rgba(0 0 0 0.2);
+}
+.btn--left {
+  /* Inrelation to parent */
+  left: 0px;
+  top: 50%;
+}
+.btn--right {
+  left: 95%;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.btn-icon {
+  stroke: #946025;
+  height: 24px;
+  width: 24px;
+}
+/* the footer */
+.footer {
+  display: flex;
+  background-color: #212529;
+  color: white;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.icon {
+  width: 24px;
+  stroke: white;
+}
+.tel,
+.email {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 700px;
+  }
+  .product-container {
+    flex-wrap: wrap;
+  }
+  
+  .carosel {
+    width: 80%;
+    font-size: 1rem;
+  }
+  .left-box img {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header-box {
+    width: 100%;
+    font-size: .9rem;
+  }
+  .right-box h1 {
+    font-size: 1.5rem;;
+  }
+  .best-sellers {
+    text-align: left;
+  }
+  }
+  .left-box {
+    width: 30%;
+  }
+  }
+  .left-box {
+    width: 50%;
+  }
+  .right-box {
+    width: 50px;
+  }
+}
